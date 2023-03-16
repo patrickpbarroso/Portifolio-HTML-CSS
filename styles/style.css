@@ -54,14 +54,27 @@ body {
     gap: 40px;
 }
 
+.apresentacao__lista__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
+.apresentacao__conteudo__subtitulo {
+    font-size: 1.75rem;
+    font-family: var(--fonte-primaria)
+}
+
 .apresentacao__conteudo__texto {
-    font-size: 1.5rem;    
-    font-family: var(--fonte-secundaria) 
+    font-size: 1.25rem;    
+    font-family: var(--fonte-secundaria);
+    list-style-type:circle;
 }
 
 .titulo-destaque {
@@ -99,8 +112,12 @@ body {
     text-decoration: none;
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-hover);
 }
 
 .apresentacao__imagem {
